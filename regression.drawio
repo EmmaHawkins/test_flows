@@ -1,42 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T12:21:14.938Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="sUdBN6Hwr_TYG82fV55l" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-03T14:47:46.736Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="b3YJlcpu5AQPkUCk84UR" version="21.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="B7ogmAJksCbnbJUIHIMK-2" value="Ticket is in To Do" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="40" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="B7ogmAJksCbnbJUIHIMK-3" value="Ticket meets criteria?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="485" y="160" width="140" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="B7ogmAJksCbnbJUIHIMK-4" value="Ticket meets criteria?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="150" width="140" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="B7ogmAJksCbnbJUIHIMK-5" value="Move ticket to In Progress" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="340" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="B7ogmAJksCbnbJUIHIMK-6" value="Move ticket to Game Plan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="185" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="B7ogmAJksCbnbJUIHIMK-7" value="Ticket meets criteria?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="485" y="480" width="140" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="B7ogmAJksCbnbJUIHIMK-8" value="Move to PR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="680" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="B7ogmAJksCbnbJUIHIMK-9" value="Ticket meets criteria?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="485" y="820" width="140" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="B7ogmAJksCbnbJUIHIMK-10" value="Move to Ready for&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="1010" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="B7ogmAJksCbnbJUIHIMK-11" value="Ticket meets criteria?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="485" y="1170" width="140" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="B7ogmAJksCbnbJUIHIMK-12" value="Move to PR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="1410" width="170" height="80" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
