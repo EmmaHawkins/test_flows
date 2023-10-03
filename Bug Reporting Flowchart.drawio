@@ -1,9 +1,135 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T14:48:33.691Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.8.2" etag="jFRlITim6UfDXzFoPFvG" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-03T15:21:40.534Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="wpbGRCB1Se9jdX6XBpSk" version="21.8.2" type="github">
   <diagram name="Page-1" id="tG65rsOxo-R3Q1rgLA2W">
-    <mxGraphModel>
+    <mxGraphModel dx="2603" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="J56BupVdVb-3NMXRXMAk-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J56BupVdVb-3NMXRXMAk-1" target="J56BupVdVb-3NMXRXMAk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J56BupVdVb-3NMXRXMAk-1" target="J56BupVdVb-3NMXRXMAk-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-1" value="Does the ticket meet the Acceptance Criteria?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J56BupVdVb-3NMXRXMAk-11" target="J56BupVdVb-3NMXRXMAk-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-11" value="Does the Acceptance Criteria function as expected?" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J56BupVdVb-3NMXRXMAk-13" target="J56BupVdVb-3NMXRXMAk-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J56BupVdVb-3NMXRXMAk-13" target="J56BupVdVb-3NMXRXMAk-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-13" value="Is the ticket in the In Progress column?" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-15" value="Discuss issue with the Developer and record details on the ticket" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J56BupVdVb-3NMXRXMAk-17" target="J56BupVdVb-3NMXRXMAk-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-17" value="Is the ticket in the PR column?" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="865" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-19" value="Add a comment to the PR advising of the issue and discuss with the Developer.&lt;br&gt;&lt;br&gt;Move the ticket back to the In Progress column if the fix is complex" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="842.5" y="230" width="165" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J56BupVdVb-3NMXRXMAk-22" target="J56BupVdVb-3NMXRXMAk-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J56BupVdVb-3NMXRXMAk-22" target="J56BupVdVb-3NMXRXMAk-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-22" value="Are there E2E tests covering the User scenarios?" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J56BupVdVb-3NMXRXMAk-24" target="J56BupVdVb-3NMXRXMAk-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J56BupVdVb-3NMXRXMAk-24" target="J56BupVdVb-3NMXRXMAk-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-24" value="Are all the automated tests passing?" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J56BupVdVb-3NMXRXMAk-26" target="J56BupVdVb-3NMXRXMAk-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-26" value="Are there Integration or unit tests that will cover the User Scenarios?" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-30" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-31" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-32" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-33" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-34" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-35" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-36" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-37" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-38" value="Work has been completed.&lt;br&gt;&lt;br&gt;Move the ticket into Done." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="510" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-43" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="J56BupVdVb-3NMXRXMAk-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="320" as="sourcePoint" />
+            <mxPoint x="180" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="45" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-45" value="Add the missing tests to the E2E suite" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-215" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="J56BupVdVb-3NMXRXMAk-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-60" y="425" as="sourcePoint" />
+            <mxPoint x="180" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-155" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-48" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-49" value="Check the error and fix the issue" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-51" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="420" as="sourcePoint" />
+            <mxPoint x="305" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J56BupVdVb-3NMXRXMAk-52" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
