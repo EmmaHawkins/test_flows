@@ -1,19 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T13:33:13.277Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="erhn7ceOxMi6yc7zF-6E" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T13:35:47.382Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="dYC_TPaF87_gR1z7raph" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1062" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="meaRv1d-LlNJj-3QuRXh-28" value="To Do" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="560" y="240" width="140" height="110" as="geometry">
+          <mxGeometry x="560" y="240" width="140" height="120" as="geometry">
             <mxRectangle x="30" y="240" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="meaRv1d-LlNJj-3QuRXh-29" value="Ticket has been through the Ticket Workflow" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-28" vertex="1">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="meaRv1d-LlNJj-3QuRXh-30" value="Meets the Definition Of Ready" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-28" vertex="1">
-          <mxGeometry y="60" width="140" height="50" as="geometry" />
+        <mxCell id="meaRv1d-LlNJj-3QuRXh-29" value="Ticket has been through the Ticket Workflow&lt;br&gt;&lt;br&gt;Meets the Definition Of Ready" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-28" vertex="1">
+          <mxGeometry y="30" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-33" value="Game Plan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="560" y="570" width="140" height="110" as="geometry">
@@ -24,21 +21,18 @@
           <mxGeometry y="30" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-37" value="In Progress" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1000" y="240" width="140" height="440" as="geometry">
+          <mxGeometry x="1000" y="240" width="140" height="450" as="geometry">
             <mxRectangle x="470" y="240" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="meaRv1d-LlNJj-3QuRXh-38" value="Ticket has been through Game Plan (if needed)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-37" vertex="1">
-          <mxGeometry y="30" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="meaRv1d-LlNJj-3QuRXh-39" value="Developers and Testers to pair to ensure A/C is met and test coverage is appropriate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-37" vertex="1">
-          <mxGeometry y="90" width="140" height="60" as="geometry" />
+        <mxCell id="meaRv1d-LlNJj-3QuRXh-38" value="Ticket has been through Game Plan (if needed)&lt;br&gt;&lt;br&gt;Developers and Testers to pair to ensure A/C is met and test coverage is appropriate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-37" vertex="1">
+          <mxGeometry y="30" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="MgMq9kKjlGCQQoYwDSLB-2" value="Sometimes there are situations where we will need to rethink our implementation.&lt;br&gt;&lt;br&gt;If the ticket needs further discussion on how to implement the changes, move to Game Plan" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-37" vertex="1">
-          <mxGeometry y="150" width="140" height="170" as="geometry" />
+          <mxGeometry y="160" width="140" height="170" as="geometry" />
         </mxCell>
         <mxCell id="MgMq9kKjlGCQQoYwDSLB-29" value="Manual Testing can be requested to be performaed by a Tester at this point in the process, if the developer feels the need." style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-37" vertex="1">
-          <mxGeometry y="320" width="140" height="120" as="geometry" />
+          <mxGeometry y="330" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-41" value="PR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1470" y="240" width="140" height="490" as="geometry">
@@ -54,9 +48,9 @@
         <mxCell id="MgMq9kKjlGCQQoYwDSLB-30" value="Manual Testing can be requested to be performaed by a Tester at this point in the process, if the developer feels the need." style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-41" vertex="1">
           <mxGeometry y="370" width="140" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="meaRv1d-LlNJj-3QuRXh-46" value="Ready For Release" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" collapsed="1">
-          <mxGeometry x="1930" y="240" width="140" height="30" as="geometry">
-            <mxRectangle x="1400" y="240" width="140" height="160" as="alternateBounds" />
+        <mxCell id="meaRv1d-LlNJj-3QuRXh-46" value="Ready For Release" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1930" y="240" width="140" height="160" as="geometry">
+            <mxRectangle x="1930" y="240" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-47" value="A/C is met" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-46" vertex="1">
@@ -68,9 +62,9 @@
         <mxCell id="meaRv1d-LlNJj-3QuRXh-49" value="PR has at least two approvers" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-46" vertex="1">
           <mxGeometry y="100" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="meaRv1d-LlNJj-3QuRXh-50" value="Done" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" collapsed="1">
-          <mxGeometry x="2350" y="240" width="130" height="30" as="geometry">
-            <mxRectangle x="1820" y="240" width="140" height="190" as="alternateBounds" />
+        <mxCell id="meaRv1d-LlNJj-3QuRXh-50" value="Done" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="2350" y="240" width="140" height="190" as="geometry">
+            <mxRectangle x="2350" y="240" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-51" value="Branch has been merged into Main" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-50" vertex="1">
