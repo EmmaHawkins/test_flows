@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T11:07:10.499Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="HqZ5bvwxm__0UHQinsIN" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T11:10:05.124Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ZhEqAyykds18VIaE1UGO" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="meaRv1d-LlNJj-3QuRXh-28" value="To Do" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="15" y="360" width="140" height="110" as="geometry">
+          <mxGeometry x="15" y="270" width="140" height="110" as="geometry">
             <mxRectangle x="110" y="380" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -16,7 +16,7 @@
           <mxGeometry y="60" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-33" value="Game Plan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="215" y="360" width="140" height="200" as="geometry">
+          <mxGeometry x="215" y="270" width="140" height="200" as="geometry">
             <mxRectangle x="280" y="380" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -27,38 +27,41 @@
           <mxGeometry y="100" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-37" value="In Progress" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="415" y="360" width="140" height="210" as="geometry">
+          <mxGeometry x="400" y="270" width="140" height="270" as="geometry">
             <mxRectangle x="440" y="380" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="meaRv1d-LlNJj-3QuRXh-38" value="Ticket has been through Game Plan (if needed)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-37" vertex="1">
+        <mxCell id="MgMq9kKjlGCQQoYwDSLB-2" value="If ticket needs further discussion on how" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="meaRv1d-LlNJj-3QuRXh-37">
           <mxGeometry y="30" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="meaRv1d-LlNJj-3QuRXh-39" value="Developers and Testers to pair to ensure A/C is met and test coverage is appropriate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-37" vertex="1">
+        <mxCell id="meaRv1d-LlNJj-3QuRXh-38" value="Ticket has been through Game Plan (if needed)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-37" vertex="1">
           <mxGeometry y="90" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="meaRv1d-LlNJj-3QuRXh-55" value="Ticket to be moved into&amp;nbsp; PR once the A/C has been met." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-37" vertex="1">
+        <mxCell id="meaRv1d-LlNJj-3QuRXh-39" value="Developers and Testers to pair to ensure A/C is met and test coverage is appropriate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-37" vertex="1">
           <mxGeometry y="150" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="meaRv1d-LlNJj-3QuRXh-55" value="Ticket to be moved into&amp;nbsp; PR once the A/C has been met." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-37" vertex="1">
+          <mxGeometry y="210" width="140" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-41" value="PR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="615" y="360" width="140" height="260" as="geometry">
+          <mxGeometry x="615" y="275" width="140" height="260" as="geometry">
             <mxRectangle x="594.5" y="380" width="125.5" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="meaRv1d-LlNJj-3QuRXh-56" value="Ticket to be moved to Ready For Release when at least two approvals have been added to the PR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-41" vertex="1">
+          <mxGeometry y="30" width="140" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-42" value="All tests are passing" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-41" vertex="1">
-          <mxGeometry y="30" width="140" height="40" as="geometry" />
+          <mxGeometry y="110" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-43" value="A Pull Request has been opened" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-41" vertex="1">
-          <mxGeometry y="70" width="140" height="60" as="geometry" />
+          <mxGeometry y="150" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-44" value="Pull Request link has been added to the ticket" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-41" vertex="1">
-          <mxGeometry y="130" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="meaRv1d-LlNJj-3QuRXh-56" value="Ticket to be moved to Ready For Release when at least two approvals have been added to the PR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="meaRv1d-LlNJj-3QuRXh-41" vertex="1">
-          <mxGeometry y="180" width="140" height="80" as="geometry" />
+          <mxGeometry y="210" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-46" value="Ready For Release" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="815" y="360" width="140" height="150" as="geometry">
+          <mxGeometry x="815" y="270" width="140" height="150" as="geometry">
             <mxRectangle x="760" y="380" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -72,7 +75,7 @@
           <mxGeometry y="90" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-50" value="Done" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1015" y="360" width="140" height="180" as="geometry">
+          <mxGeometry x="1015" y="270" width="140" height="180" as="geometry">
             <mxRectangle x="920" y="380" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -87,51 +90,51 @@
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-61" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="355" y="381" as="sourcePoint" />
-            <mxPoint x="415" y="380" as="targetPoint" />
+            <mxPoint x="355" y="291" as="sourcePoint" />
+            <mxPoint x="415" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-62" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="555" y="381" as="sourcePoint" />
-            <mxPoint x="615" y="380" as="targetPoint" />
+            <mxPoint x="555" y="291" as="sourcePoint" />
+            <mxPoint x="615" y="290" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="615" y="380.5" />
+              <mxPoint x="615" y="290.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-63" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="755" y="381" as="sourcePoint" />
-            <mxPoint x="815" y="380" as="targetPoint" />
+            <mxPoint x="755" y="291" as="sourcePoint" />
+            <mxPoint x="815" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-64" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="155" y="381" as="sourcePoint" />
-            <mxPoint x="215" y="380" as="targetPoint" />
+            <mxPoint x="155" y="291" as="sourcePoint" />
+            <mxPoint x="215" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-65" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="955" y="381" as="sourcePoint" />
-            <mxPoint x="1015" y="380" as="targetPoint" />
+            <mxPoint x="955" y="291" as="sourcePoint" />
+            <mxPoint x="1015" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-66" value="Work is too complex and needs a discussion on how to implement it" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="400" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-70" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="425" y="150" width="70" height="210" as="geometry" />
+          <mxGeometry x="425" y="60" width="70" height="210" as="geometry" />
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-74" value="Comment have been added or errors/bugs found relating to the A/C" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="625" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="625" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-75" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="650" y="290" width="70" height="70" as="geometry" />
+          <mxGeometry x="650" y="200" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="meaRv1d-LlNJj-3QuRXh-76" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.bendDoubleArrow;dy=15;dx=38;arrowHead=55;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="500" y="230" width="120" height="130" as="geometry" />
+          <mxGeometry x="500" y="140" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="srAlw4U41IVhiuUuW2zy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="srAlw4U41IVhiuUuW2zy-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -153,10 +156,10 @@
         </mxCell>
         <mxCell id="MgMq9kKjlGCQQoYwDSLB-0" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="meaRv1d-LlNJj-3QuRXh-66" target="meaRv1d-LlNJj-3QuRXh-33">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="250" as="sourcePoint" />
-            <mxPoint x="280" y="120" as="targetPoint" />
+            <mxPoint x="290" y="160" as="sourcePoint" />
+            <mxPoint x="280" y="30" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="285" y="120" />
+              <mxPoint x="285" y="30" />
             </Array>
           </mxGeometry>
         </mxCell>
