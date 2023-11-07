@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T15:58:06.049Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Lzc_TAwCmcWJhdtrFpXZ" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T16:08:05.823Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="OpseDCLoicWnOWOAc6yW" version="22.0.8" type="github">
   <diagram name="Page-1" id="V2kCWrqlUJaJBq76G56C">
-    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="382" dy="211" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,20 +19,35 @@
         <mxCell id="V5irKSljSjy_MFjIoWEI-7" value="Test cases are added using GIVEN, WHEN, AND, THEN syntax, based on the User Journey and Acceptence Criteria" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="V5irKSljSjy_MFjIoWEI-4">
           <mxGeometry y="210" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="V5irKSljSjy_MFjIoWEI-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V5irKSljSjy_MFjIoWEI-14" target="V5irKSljSjy_MFjIoWEI-19">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="V5irKSljSjy_MFjIoWEI-10" value="Ticket is in PR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="140" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="V5irKSljSjy_MFjIoWEI-11" value="QA to check that the tests are covering the test cases that are specified on the ticket" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="V5irKSljSjy_MFjIoWEI-10">
+          <mxGeometry y="30" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="V5irKSljSjy_MFjIoWEI-12" value="QA to check that the automated tests are able to be triggered manually" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="V5irKSljSjy_MFjIoWEI-10">
+          <mxGeometry y="120" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="V5irKSljSjy_MFjIoWEI-13" value="QA to pull down the branch locally or deploy to test environment and manually check the A/C" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="V5irKSljSjy_MFjIoWEI-10">
+          <mxGeometry y="190" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="V5irKSljSjy_MFjIoWEI-14" value="Ticket is In Progress" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="200" width="140" height="130" as="geometry" />
+          <mxGeometry x="290" y="200" width="140" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="V5irKSljSjy_MFjIoWEI-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V5irKSljSjy_MFjIoWEI-19" target="V5irKSljSjy_MFjIoWEI-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="V5irKSljSjy_MFjIoWEI-16" value="QA and Developer pair together to write tests and check functionality on the fly&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="V5irKSljSjy_MFjIoWEI-14">
+          <mxGeometry y="30" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="V5irKSljSjy_MFjIoWEI-19" value="Ticket is In Progress" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="200" width="140" height="130" as="geometry" />
+        <mxCell id="V5irKSljSjy_MFjIoWEI-27" value="QA to pull down branch and check that the A/C is met" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="V5irKSljSjy_MFjIoWEI-14">
+          <mxGeometry y="100" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="V5irKSljSjy_MFjIoWEI-21" value="Ticket is In Progress" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="200" width="140" height="130" as="geometry" />
+        <mxCell id="V5irKSljSjy_MFjIoWEI-28" value="If QA is not pairing, Developer can request QA to manually check the functionality if they wish" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="V5irKSljSjy_MFjIoWEI-14">
+          <mxGeometry y="200" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V5irKSljSjy_MFjIoWEI-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.43;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="350" as="sourcePoint" />
+            <mxPoint x="489.99999999999994" y="349.95000000000005" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
