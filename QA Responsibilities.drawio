@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T16:08:05.823Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="OpseDCLoicWnOWOAc6yW" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T16:11:22.904Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="FHzz_jJCod5-0MvRXDSI" version="22.0.8" type="github">
   <diagram name="Page-1" id="V2kCWrqlUJaJBq76G56C">
-    <mxGraphModel dx="382" dy="211" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry y="210" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="V5irKSljSjy_MFjIoWEI-10" value="Ticket is in PR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="200" width="140" height="300" as="geometry" />
+          <mxGeometry x="500" y="200" width="140" height="300" as="geometry" />
         </mxCell>
         <mxCell id="V5irKSljSjy_MFjIoWEI-11" value="QA to check that the tests are covering the test cases that are specified on the ticket" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="V5irKSljSjy_MFjIoWEI-10">
           <mxGeometry y="30" width="140" height="90" as="geometry" />
@@ -43,10 +43,10 @@
         <mxCell id="V5irKSljSjy_MFjIoWEI-28" value="If QA is not pairing, Developer can request QA to manually check the functionality if they wish" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="V5irKSljSjy_MFjIoWEI-14">
           <mxGeometry y="200" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="V5irKSljSjy_MFjIoWEI-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.43;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="V5irKSljSjy_MFjIoWEI-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.43;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="V5irKSljSjy_MFjIoWEI-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="350" as="sourcePoint" />
-            <mxPoint x="489.99999999999994" y="349.95000000000005" as="targetPoint" />
+            <mxPoint x="440" y="349.76" as="sourcePoint" />
+            <mxPoint x="499.99999999999994" y="349.71000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
