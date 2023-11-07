@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T14:59:05.937Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="LgreMBA1-tNuudK6slHR" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T15:58:06.049Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Lzc_TAwCmcWJhdtrFpXZ" version="22.0.8" type="github">
   <diagram name="Page-1" id="V2kCWrqlUJaJBq76G56C">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="V5irKSljSjy_MFjIoWEI-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V5irKSljSjy_MFjIoWEI-4" target="V5irKSljSjy_MFjIoWEI-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V5irKSljSjy_MFjIoWEI-4" value="Ticket is in Pre Amigos" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="140" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="V5irKSljSjy_MFjIoWEI-5" value="QA looks at the ticket to check that the Acceptence Criteria makes sense" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="V5irKSljSjy_MFjIoWEI-4">
+          <mxGeometry y="30" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V5irKSljSjy_MFjIoWEI-6" value="If there are questions or more informatin is needed, comments are added by the QA and the ticket remains in Pre Amigos" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="V5irKSljSjy_MFjIoWEI-4">
+          <mxGeometry y="110" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V5irKSljSjy_MFjIoWEI-7" value="Test cases are added using GIVEN, WHEN, AND, THEN syntax, based on the User Journey and Acceptence Criteria" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="V5irKSljSjy_MFjIoWEI-4">
+          <mxGeometry y="210" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="V5irKSljSjy_MFjIoWEI-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V5irKSljSjy_MFjIoWEI-14" target="V5irKSljSjy_MFjIoWEI-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V5irKSljSjy_MFjIoWEI-14" value="Ticket is In Progress" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="V5irKSljSjy_MFjIoWEI-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V5irKSljSjy_MFjIoWEI-19" target="V5irKSljSjy_MFjIoWEI-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V5irKSljSjy_MFjIoWEI-19" value="Ticket is In Progress" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="200" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="V5irKSljSjy_MFjIoWEI-21" value="Ticket is In Progress" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="200" width="140" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
