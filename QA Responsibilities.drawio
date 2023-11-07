@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T16:20:17.666Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="EnnGQf7BXPBT9mCzz8-0" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T16:28:30.252Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="kQXVr4vgXG2E2SusXCP0" version="22.0.8" type="github">
   <diagram name="Page-1" id="V2kCWrqlUJaJBq76G56C">
     <mxGraphModel dx="869" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -22,14 +22,14 @@
         <mxCell id="V5irKSljSjy_MFjIoWEI-10" value="Ticket is in PR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="200" width="140" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="V5irKSljSjy_MFjIoWEI-11" value="QA to check that the tests are covering the test cases that are specified on the ticket" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="V5irKSljSjy_MFjIoWEI-10">
-          <mxGeometry y="40" width="140" height="90" as="geometry" />
+        <mxCell id="V5irKSljSjy_MFjIoWEI-11" value="QA to check that the tests are covering the test cases that are specified on the ticket, and to advise of any missing tests or uncovered scenarios" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="V5irKSljSjy_MFjIoWEI-10">
+          <mxGeometry y="40" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="V5irKSljSjy_MFjIoWEI-12" value="QA to check that the automated tests are able to be triggered manually" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="V5irKSljSjy_MFjIoWEI-10">
-          <mxGeometry y="130" width="140" height="80" as="geometry" />
+          <mxGeometry y="150" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="V5irKSljSjy_MFjIoWEI-13" value="QA to pull down the branch locally or deploy to test environment and manually check the A/C" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="V5irKSljSjy_MFjIoWEI-10">
-          <mxGeometry y="210" width="140" height="90" as="geometry" />
+          <mxGeometry y="240" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V5irKSljSjy_MFjIoWEI-14" value="Ticket is In Progress" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="200" width="140" height="300" as="geometry" />
@@ -55,11 +55,11 @@
             <mxPoint x="359.7" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V5irKSljSjy_MFjIoWEI-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="570" width="140" height="60" as="geometry" />
+        <mxCell id="V5irKSljSjy_MFjIoWEI-35" value="Bugs found in this part of the process can be worked on during this phase. It&#39;s often a good idea for a Developer and QA to pair on a call to do this. &lt;br&gt;&lt;br&gt;If the bug is not related to the work that has been carried out in the PR, or relates to the Acceptance Criteria&lt;br&gt;&amp;nbsp;then the bug will need to be reported as a separate issue.&lt;br&gt;&lt;br&gt;Once the issue has been rectified and the A/C met, the ticket can be progressed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="570" width="140" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="V5irKSljSjy_MFjIoWEI-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="570" width="140" height="60" as="geometry" />
+        <mxCell id="V5irKSljSjy_MFjIoWEI-36" value="Bugs is found during the PR part of development, require a comment&amp;nbsp; on the PR before approving.&lt;br&gt;&lt;br&gt;If the bug is not related to the work that has been carried out in the PR, or relates to the Acceptance Criteria then the bug will need to be reported as a separate issue.&lt;br&gt;&lt;br&gt;When the comment has been addressed is it ok to approve the PR." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="570" width="140" height="250" as="geometry" />
         </mxCell>
         <mxCell id="V5irKSljSjy_MFjIoWEI-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
