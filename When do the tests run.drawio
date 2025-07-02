@@ -4,63 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KTq_Er68q4V80zFjPGYi-2" value="Locally" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="40" width="140" height="240" as="geometry">
-            <mxRectangle x="80" y="40" width="80" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KTq_Er68q4V80zFjPGYi-3" value="Unit Tests" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KTq_Er68q4V80zFjPGYi-2" vertex="1">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KTq_Er68q4V80zFjPGYi-4" value="E2E API Tests" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KTq_Er68q4V80zFjPGYi-2" vertex="1">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KTq_Er68q4V80zFjPGYi-5" value="Performance Tests" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KTq_Er68q4V80zFjPGYi-2" vertex="1">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KTq_Er68q4V80zFjPGYi-15" value="Smoke Tests (CMS E2E)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KTq_Er68q4V80zFjPGYi-2" vertex="1">
-          <mxGeometry y="120" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="KTq_Er68q4V80zFjPGYi-16" value="Regression Suite" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KTq_Er68q4V80zFjPGYi-2" vertex="1">
-          <mxGeometry y="160" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KTq_Er68q4V80zFjPGYi-14" value="Stringer E2E" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KTq_Er68q4V80zFjPGYi-2" vertex="1">
-          <mxGeometry y="190" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="KTq_Er68q4V80zFjPGYi-6" value="On Commit" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="40" width="140" height="180" as="geometry">
-            <mxRectangle x="280" y="40" width="100" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KTq_Er68q4V80zFjPGYi-7" value="Unit Tests - Circle CI" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KTq_Er68q4V80zFjPGYi-6" vertex="1">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KTq_Er68q4V80zFjPGYi-8" value="E2E API - Circle CI" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KTq_Er68q4V80zFjPGYi-6" vertex="1">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KTq_Er68q4V80zFjPGYi-9" value="Regression Suite - Circle CI" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KTq_Er68q4V80zFjPGYi-6" vertex="1">
-          <mxGeometry y="90" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="KTq_Er68q4V80zFjPGYi-17" value="Stringer E2E - Circle CI" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KTq_Er68q4V80zFjPGYi-6" vertex="1">
-          <mxGeometry y="140" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="KTq_Er68q4V80zFjPGYi-10" value="Post Deploy" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="40" width="140" height="220" as="geometry">
-            <mxRectangle x="480" y="40" width="110" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KTq_Er68q4V80zFjPGYi-11" value="Regression Suite&lt;br&gt;- UAT&lt;br&gt;-STAGE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KTq_Er68q4V80zFjPGYi-10" vertex="1">
-          <mxGeometry y="30" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KTq_Er68q4V80zFjPGYi-12" value="Smoke Tests (CMS)&lt;br&gt;- PROD" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KTq_Er68q4V80zFjPGYi-10" vertex="1">
-          <mxGeometry y="90" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="KTq_Er68q4V80zFjPGYi-13" value="Performance Tests" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KTq_Er68q4V80zFjPGYi-10" vertex="1">
-          <mxGeometry y="140" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="KTq_Er68q4V80zFjPGYi-19" value="Exploratory" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KTq_Er68q4V80zFjPGYi-10" vertex="1">
-          <mxGeometry y="180" width="140" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="KTq_Er68q4V80zFjPGYi-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KTq_Er68q4V80zFjPGYi-20" target="KTq_Er68q4V80zFjPGYi-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -288,8 +231,14 @@
         <mxCell id="QdnYY8yoWKjvE_q9ZzVg-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="QdnYY8yoWKjvE_q9ZzVg-92" target="QdnYY8yoWKjvE_q9ZzVg-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="dj7URQojnmfW7r0EjaQN-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QdnYY8yoWKjvE_q9ZzVg-92" target="dj7URQojnmfW7r0EjaQN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QdnYY8yoWKjvE_q9ZzVg-92" value="DEPLOYMENT SUCCESSFUL" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1280" y="1005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dj7URQojnmfW7r0EjaQN-1" value="&lt;div&gt;k6 Tests triggered&lt;br&gt;&lt;br&gt;(TBC)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1150" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
