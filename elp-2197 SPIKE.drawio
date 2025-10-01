@@ -27,6 +27,63 @@
         <mxCell id="iENZt2j812Y5WJSHyIO9-8" value="Data from seats up is put into the Ward seat table, along with the winners and the amount os seats they have within that ward" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="300" width="200" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iENZt2j812Y5WJSHyIO9-9" target="iENZt2j812Y5WJSHyIO9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-9" value="Go to Setup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="900" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iENZt2j812Y5WJSHyIO9-10" target="iENZt2j812Y5WJSHyIO9-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-10" value="Click on the Ward Level Data Upload button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="900" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iENZt2j812Y5WJSHyIO9-14" target="iENZt2j812Y5WJSHyIO9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-14" value="Select the spreadsheet from your computer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="900" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iENZt2j812Y5WJSHyIO9-16" target="iENZt2j812Y5WJSHyIO9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-16" value="Click upload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="900" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iENZt2j812Y5WJSHyIO9-24" target="iENZt2j812Y5WJSHyIO9-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iENZt2j812Y5WJSHyIO9-25" target="iENZt2j812Y5WJSHyIO9-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-18" value="Is file valid?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="900" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-20" value="The value found in seats up is displayed in the ward level component" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="720" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-22" value="A message is displayed advising that the file cannot be processed." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1080" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iENZt2j812Y5WJSHyIO9-18" target="iENZt2j812Y5WJSHyIO9-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1125" y="1000" as="sourcePoint" />
+            <mxPoint x="1125" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-25" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="1020" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iENZt2j812Y5WJSHyIO9-18" target="iENZt2j812Y5WJSHyIO9-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1125" y="900" as="sourcePoint" />
+            <mxPoint x="1125" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-24" value="YES" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="850" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
