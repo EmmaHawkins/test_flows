@@ -7,11 +7,25 @@
         <mxCell id="iENZt2j812Y5WJSHyIO9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iENZt2j812Y5WJSHyIO9-1" target="iENZt2j812Y5WJSHyIO9-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iENZt2j812Y5WJSHyIO9-1" value="User uploads ward level data spreadsheet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iENZt2j812Y5WJSHyIO9-1" value="User uploads ward level data spreadsheet - no results" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="120" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="iENZt2j812Y5WJSHyIO9-2" value="Data from seats up is put into the Ward seat table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="120" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-4" value="Can we use enrichment data upload? - No, this processes JSON. We will need to create a new way of importing the spreadsheet so that the&amp;nbsp; available seats per ward are pre-filled when the ward baseline is imported.&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Once the seats are filled, then a new version of the spreadsheet will be uploaded and the winning party seats for that ward will be updated&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="240" width="230" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iENZt2j812Y5WJSHyIO9-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-5" value="User uploads ward level data spreadsheet -&amp;nbsp; results" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iENZt2j812Y5WJSHyIO9-8" value="Data from seats up is put into the Ward seat table, along with the winners and the amount os seats they have within that ward" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="200" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
